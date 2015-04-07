@@ -12,7 +12,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 
 public class Main {
-
+	/** http://kielczewski.eu/2013/11/using-embedded-jetty-spring-mvc/ */
 	private static final String CONTEXT_PATH = "/";
 	private static final String CONFIG_LOCATION = "eu.kielczewski.example.config";
 	private static final String MAPPING_URL = "/*";
